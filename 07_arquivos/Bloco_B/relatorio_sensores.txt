@@ -1,0 +1,3 @@
+Sensor_Norte; 24.5; 25.1; 23.8
+Sensor_Sul; 19.0; 18.7; 19.4
+Sensor_Leste; 31.2; 30.5; 31.0
