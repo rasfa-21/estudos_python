@@ -1,4 +1,4 @@
-# D5 contando todos os chamados por fazenda
+# D5 contando todos os chamados por fazenda do CSV
 
 import csv
 from collections import Counter
@@ -10,12 +10,13 @@ def chamado_por_fazenda(caminho_arquivo):
         contagem_fazenda = Counter() # no lugar do dict vazio {}
 
         for linha in csv.DictReader(arquivo):
-            contagem_fazenda[linha['fazenda']] += 1
+            contagem_fazenda[linha['fazenda']] += 1 # ao inves de usar .get()
 
     return dict(contagem_fazenda)
 
-resultado = chamado_por_fazenda(caminho)
-print(resultado)
+if __name__ == '__main__':
+    resultado = chamado_por_fazenda(caminho)
+    print(resultado)
 
 
 
