@@ -1,3 +1,22 @@
 venv\
 __pycache__/
 *.pyc
+
+# Arquivos de variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Credenciais, tokens e chaves privadas
+*.key
+*.pem
+*.cert
+secrets.json
+credentials.json
+client_secret*.json
+token.json
+tokens.json
+
+# Configurações locais que contenham senhas
+config.local.*
+settings.local.py
