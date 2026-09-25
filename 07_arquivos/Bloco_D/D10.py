@@ -55,6 +55,7 @@ def executar_pipeline(arquivo_csv, arquivo_saida):
     metricas = calcular_metricas(dados)
     metricas_salvas = salvar_metricas(metricas, arquivo_saida)
 
+# Ponto de execução protegido: apenas a execução vai no try/except
 try:
     executar_pipeline(CAMINHO_CSV, CAMINHO_TXT)
     print("Pipeline executado com sucesso!")
