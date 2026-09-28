@@ -1,10 +1,6 @@
-# A10
+# A10. Criar o mesmo DataFrame de dois jeitos e comparar pra ver se são iguais
 
 import pandas as pd
-
-CAMINHO_ARQUVIO = r"09_pandas\dados_didaticos.xlsx"
-
-df = pd.read_excel(CAMINHO_ARQUVIO)
 
 dict_listas = {
     "valor": [1200, 850], 
@@ -13,5 +9,11 @@ dict_listas = {
 
 lista_dicts = [
     {"valor": 1200, "tecnico": "Rafael"},
-    {"valor": 850, "tecnico": "João"}
+    {"valor": 850, "tecnico": "João"} 
 ]
+
+df_dict = pd.DataFrame(dict_listas)
+df_lista = pd.DataFrame(lista_dicts)
+
+print(df_lista.equals(df_lista))
+# retorna True ou False
