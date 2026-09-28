@@ -20,3 +20,5 @@ tokens.json
 # Configurações locais que contenham senhas
 config.local.*
 settings.local.py
+
+.ipynb_checkpoints/

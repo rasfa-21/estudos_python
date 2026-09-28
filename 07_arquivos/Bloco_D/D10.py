@@ -10,7 +10,7 @@ CAMINHO_TXT = r"07_arquivos\Bloco_D\metricas.txt"
 
 def ler_dados(arquivo_csv):
     with open(arquivo_csv, 'r', encoding='utf-8') as arquivo:
-        dict_dados = list(csv.DictReader(arquivo)) # list() transforma todos os dicts em uma lista 
+        dict_dados = list(csv.DictReader(arquivo)) # list() coloca os dict's em uma lista de dict's 
 
     return dict_dados
 
