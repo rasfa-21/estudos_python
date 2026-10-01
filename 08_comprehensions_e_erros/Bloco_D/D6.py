@@ -7,9 +7,12 @@ manutencoes = [
     {"maquina": "M4", "custo": ""}
 ]
 
-def funcao_auxiliar(lista_entrada):
-    for item in lista_entrada:
-        try:
-            float()
+def funcao_auxiliar(dict_entrada, chave_procurada, valor_padrao=0):
+    try:
+        custo_valido = float(dict_entrada[chave_procurada])
+        return custo_valido
+    except (ValueError, KeyError):
+        return valor_padrao
 
-lista_custo_valido = [float(manutencoes["custo"]) for maquina in manutencoes if ]
+lista_custo_valido = [item["maquina"] for item in manutencoes if funcao_auxiliar(item, "custo") > 500 ]
+print(lista_custo_valido)
