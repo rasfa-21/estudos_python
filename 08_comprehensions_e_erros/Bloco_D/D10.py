@@ -60,7 +60,7 @@ ops_filtradas = [op for op in ops_validas if calcular_taxa_refugos(op) > 0.03]
 #  04. Gerar relatório txt
 
 def gerar_relatorio(caminho_arquivo):
-    with open(caminho_arquivo, 'a', encoding="utf-8") as arquivo:
+    with open(caminho_arquivo, 'w', encoding="utf-8") as arquivo:
         arquivo.write("=" * 40 + "\n")
         arquivo.write("    RELATÓRIO DE AUDITORIA DE PRODUÇÃO\n")
         arquivo.write("=" * 40 + "\n\n")
@@ -90,7 +90,7 @@ def gerar_relatorio(caminho_arquivo):
         if ops_filtradas:
             for op in ops_filtradas:
                 taxa = calcular_taxa_refugos(op) * 100
-                arquivo.write(f"-{op["id"]} (linha {op["linha"]}): {taxa:.2}% de refugo\n")
+                arquivo.write(f"-{op['id']} (linha {op['linha']}): {taxa:.2}% de refugo\n")
         else:
             arquivo.write("Nenhuma OP com alta taxa de refugo.\n")
 
