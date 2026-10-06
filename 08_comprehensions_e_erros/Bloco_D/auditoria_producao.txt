@@ -1,0 +1,13 @@
+========================================
+    RELATÓRIO DE AUDITORIA DE PRODUÇÃO
+========================================
+
+Total de OPs analisadas: 6
+Total de OPs válidas: 4
+Total de OPs descartadas: 2
+--- OPs DESCARTADAS (DADOS CORROMPIDOS) ---
+- OP-02
+- OP-05
+
+--- OPs COM ALTA TAXA DE REFUGO (> 3%) ---
+-OP-04 (linha L3): 7.9% de refugo
