@@ -1,0 +1,16 @@
+OS,Cliente,Tipo,Produto,Preco_Unitario,Quantidade,Status,Estado,Valor_Total,Imposto,Valor_Final
+1003,Fazenda Horizonte,Venda,Soft starter,4200,3,Concluído,Goiás,12600,630.0,13230.0
+1007,Fazenda Esperança,Manutenção,Placa eletrônica,2150,4,Concluído,Bahia,8600,430.0,9030.0
+1012,Agro Oeste,Venda,Soft starter,4200,2,Concluído,Bahia,8400,420.0,8820.0
+1010,Agro Vitória,Venda,Sensor de nível,980,6,Concluído,Bahia,5880,294.0,6174.0
+1011,Fazenda Central,Manutenção,RTU Lindsay,1850,3,Orçamento,Mato Grosso,5550,277.5,5827.5
+1005,Fazenda Santa Luzia,Venda,Sensor de nível,980,5,Concluído,Mato Grosso,4900,245.0,5145.0
+1001,Fazenda Boa Vista,Manutenção,Placa eletrônica,2150,2,Aprovado,Bahia,4300,215.0,4515.0
+1009,Fazenda Nova Era,Manutenção,Placa eletrônica,2150,2,Em andamento,Maranhão,4300,215.0,4515.0
+1008,Agro Planalto,Venda,Soft starter,4200,1,Aprovado,Goiás,4200,210.0,4410.0
+1014,Agro Real,Venda,Sensor de nível,980,4,Em andamento,Bahia,3920,196.0,4116.0
+1006,Agro União,Manutenção,RTU Lindsay,1850,2,Aprovado,Bahia,3700,185.0,3885.0
+1015,Fazenda União,Manutenção,RTU Lindsay,1850,2,Concluído,Bahia,3700,185.0,3885.0
+1004,Agro Campo Verde,Manutenção,Placa eletrônica,2150,1,Orçamento,Bahia,2150,107.5,2257.5
+1013,Fazenda Paraíso,Manutenção,Placa eletrônica,2150,1,Aprovado,Goiás,2150,107.5,2257.5
+1002,Agro São João,Manutenção,RTU Lindsay,1850,1,Em andamento,Bahia,1850,92.5,1942.5
